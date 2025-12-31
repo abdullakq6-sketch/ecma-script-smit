@@ -33,20 +33,24 @@
 // // SWITCH STATEMENT END:
 
 // -----WHILE LOOP---- :
-var i = 0
-while (i < 5) {
-    console.log(i)
-    i++
-}
-
+// var i = 0
+// while (i < 5) {
+//     console.log(i)
+//     i++
+// }
 // -----WHILE LOOP END---- :
+
 // do-while-loop:
-var i = 0
-do{
-      console.log(i)
-    i++
-} while (i < 2)
+// var i = 2
+// do{
+//       console.log(i)
+//     i++
+// } while (i < 2)
 // do-while-loop END:
+
+function func(){
+    document.getElementById("para").innerHTML ="ABDULLAH"
+}
 
 
 
