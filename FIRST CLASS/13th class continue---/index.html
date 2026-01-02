@@ -6,12 +6,14 @@
     <title> Events Intro | HTML Document deep concept</title>
 </head>
 <body>
+    <img src="https://media.architecturaldigest.com/photos/66a914f1a958d12e0cc94a8e/16:9/w_2560%2Cc_limit/DSC_5903.jpg" alt="" width="300" onclick="src='https://img.freepik.com/free-psd/black-isolated-car_23-2151852894.jpg?semt=ais_hybrid&w=740&q=80'">
     <!-- <a href="" onclick="var message='hi'; alert(message)">click me</a> -->
-      <a href="" onclick="test ('hi')">click me</a>
-    <script>
-        function test (message) {
-            alert(message)
-        }
+      <!-- <a href="" onclick="test ('hello')"> click me</a> -->
+      <p id="para" onclick="showPara()">mouse click for information</p>
+      <input id="inputField" type="text" placeholder="enter your good name"
+      onfocus="redfield(this)"
+      onBlur="this.style.backgroundColor='yellow';">
+    <script src="index.js">
     </script>
 </body>
 </html>
