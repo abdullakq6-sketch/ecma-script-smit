@@ -28,3 +28,10 @@
 // }
 // var funct = function outer() { //function expression
 //    console.log(fname, lname);
+// let fname = "ibrahim"
+//    let lname = "khan"
+// };
+// funct()
+// function callbackFunnction(){
+
+
