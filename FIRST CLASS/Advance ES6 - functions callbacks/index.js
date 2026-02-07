@@ -28,3 +28,22 @@
 // console.log(obj3["address"]["state"]["smallState"]);
 
 // "abc"
+// console.log(abc)
+
+// var person = {
+//    name:"ali",
+//    age:20
+// }
+
+// var newPerson = person
+// // newPerson.name="asad"
+// newPerson["name"] = "asad 2"
+// console.log(newPerson)
+// console.log(person)
+
+// var x = 30
+// var y = x
+// y = 20
+// console.log(x)
+// console.log(y)
+
