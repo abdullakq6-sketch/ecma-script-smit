@@ -18,3 +18,13 @@
 // const obj3 = {
 //   bio: ["ali", "khan", 20],
 //   address: {
+//     city: "karachi",
+//     country: "pakistan",
+//     state: { smallState: "shahra e faisal", largeState: "paf" },
+//   },
+// };
+// console.log(obj3[firstKey][secondKey]);
+// console.log(obj3.address.state.largeState);
+// console.log(obj3["address"]["state"]["smallState"]);
+
+// "abc"
