@@ -18,3 +18,33 @@ console.log("Hello world");
 // function subtr(p, q) {
 //   return p - q;
 // }
+// function multi(p, q) {
+//   return p * q;
+// }
+// console.log(calculate(5, 10, multi));
+
+// var arr = [1, 2, 3, 4, 5];
+
+// var mapArr = arr.map(function (num) {
+//   return num + 3;
+// });
+// console.log(mapArr);
+
+// var filter = arr.filter(function (num) {
+//   return num % 2 == 0;
+// });
+// console.log(filter)
+
+// var calculate = arr.reduce((acc,current)=>acc + current,0)
+// console.log(calculate)
+
+// var findArr = arr.find((num) => num % 2 == 0);
+// console.log("find",findArr)
+
+// var some = arr.some((num) => num > 0);
+// console.log("find some", some);
+// var arr = [1, 2, 3];
+// var foreach = arr.forEach((num) => console.log(num * 2));
+// console.log("find some", foreach);
+
+// for (let index = 0; index < arr.length; index++) {
