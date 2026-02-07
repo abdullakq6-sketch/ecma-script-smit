@@ -36,6 +36,20 @@
 //    return console.log("callback function")
 // }
 // outer("ibrahim", "khan",callbackFunnction); //high order function
+function main(name, callback) {
+  console.log(`hi ${name}`);
+  callback();
+}
+function highOFunction() {
+  console.log("khan");
+}
+main("ibrahim", highOFunction);
 
+var arr = [1, 2, 3, 4, 5];
+// var mapFunct = arr.map(function(num){
+//  return num * 3
+// })
+ var mapFunct = arr.map((num)=> num * num)
+ console.log(mapFunct)
 
 
