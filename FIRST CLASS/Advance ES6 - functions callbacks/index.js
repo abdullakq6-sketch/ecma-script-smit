@@ -46,4 +46,21 @@
 // y = 20
 // console.log(x)
 // console.log(y)
+   // -- constructor
+// function Date(getFullYear,getMonth){}
+// var date = new Date.get()
 
+function StudentData(sname,sroll){
+   this.sname = sname,
+   this.sroll = sroll
+}
+// bilalData.sid = 10 //valid
+StudentData.prototype.sid = 10
+var bilalData = new StudentData("bilal",100)
+console.log("aliData "+ bilalData.sname + bilalData.sid)
+
+// map
+// callback
+// hof
+// filter
+// reduce
