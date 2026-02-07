@@ -9,3 +9,12 @@ console.log("Hello world");
 // }
 // main("ali", innerFunction);
 
+// function calculate(a, b, callback) {
+//   return callback(a, b);
+// }
+// function sum(p, q) {
+//   return p + q;
+// }
+// function subtr(p, q) {
+//   return p - q;
+// }
