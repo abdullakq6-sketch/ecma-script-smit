@@ -33,5 +33,9 @@
 // };
 // funct()
 // function callbackFunnction(){
+//    return console.log("callback function")
+// }
+// outer("ibrahim", "khan",callbackFunnction); //high order function
+
 
 
