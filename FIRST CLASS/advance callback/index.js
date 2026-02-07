@@ -8,3 +8,13 @@
 
 // function checkForPopBlocker() {
 //   var testPop = window.open("about.html", "win2", "width=100,height=100");
+//   if (testPop === null) {
+//     alert("Please disable your popup blocker.");
+//   }
+// }
+
+// function checkForLastName() {
+//   if (document.getElementById("lastNameField").value.length === 0) {
+//     alert("Please enter your last name");
+//     document.getElementById("lastNameField").focus();
+//     document.getElementById("lastNameField").style.background = "yellow";
