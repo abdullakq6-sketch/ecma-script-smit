@@ -38,3 +38,23 @@ console.log("Hello world");
 // var uname = "khan"
 // const obj ={
 //     uname:"ali",
+//     uage:20,
+//     data:()=>{
+//         console.log(this.uname)
+//     }
+// }
+// obj.data()
+
+// (function test(){
+//     console.log("inside iife")
+// })()
+
+// function add(num) {
+//   if (num <= 1) return 1;
+//   return num * add(num - 1);
+// }
+// console.log(add(5)); //9,12,15,24
+
+// let result = (function factorial(n) {
+//   if (n <= 1) return 1;
+//   return n * factorial(n - 1);
