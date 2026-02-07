@@ -58,3 +58,25 @@ console.log("Hello world");
 // let result = (function factorial(n) {
 //   if (n <= 1) return 1;
 //   return n * factorial(n - 1);
+// })(5);
+// console.log(result)
+
+// function mult(num) {
+//   if(num>=5)  return 5
+//   return num * mult(num+1);
+// }
+// console.log(mult(3));
+
+function outer() {
+  let counter = 0;
+  return function inner() {
+    counter++
+    console.log(counter)
+   return counter;
+  }
+}
+const result = outer();
+result()
+result()
+result()
+result()
