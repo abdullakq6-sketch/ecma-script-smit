@@ -48,3 +48,22 @@ console.log("Hello world");
 // console.log("find some", foreach);
 
 // for (let index = 0; index < arr.length; index++) {
+//   console.log(arr[index])
+// }
+
+// function outer() {
+//   var a = 2;
+//   console.log(a);
+//   function inner() {
+//     var b = 3;
+//     console.log(b);
+//   }
+//   inner();
+// }
+// outer();
+
+var arr1 =[1,2,3]
+var arr2 =[2,4,5]
+
+var union = arr1.join(arr2)
+console.log(union)
