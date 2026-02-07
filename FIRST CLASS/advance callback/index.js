@@ -18,3 +18,13 @@
 //     alert("Please enter your last name");
 //     document.getElementById("lastNameField").focus();
 //     document.getElementById("lastNameField").style.background = "yellow";
+//     return false;
+//   }
+// }
+
+// function outer(fname, lname ,callBack) { //function declaration
+//   console.log(fname, lname);
+//   callBack()
+// }
+// var funct = function outer() { //function expression
+//    console.log(fname, lname);
