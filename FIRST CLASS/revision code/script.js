@@ -9,4 +9,4 @@ for (var i = 0; i < firstNames.length; i++) {
         console.table("final : " + full);
 
     }
-}
+} 
